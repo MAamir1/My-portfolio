@@ -621,6 +621,28 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.about .content .about-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+@media (max-width: 768px) {
+  .about .content .about-title {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about .content .about-title {
+    font-size: 20px;
+  }
 }
 
 .about .content ul {
